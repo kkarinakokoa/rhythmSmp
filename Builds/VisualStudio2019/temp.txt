@@ -1,0 +1,88 @@
+attSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+decSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+susSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+relSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+
+attSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+decSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+susSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+relSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+
+sizeSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+dampSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+rvbfbSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+rvbwidthSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+rvbwetSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+
+sizeSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+dampSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+rvbfbSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+rvbwidthSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+rvbwetSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+
+dtSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+dfbSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+dwetSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+dppSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+
+dtSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+dfbSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+dwetSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+dppSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+
+idtSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+idrySlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+iwetSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+ibalSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+
+idtSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+idrySlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+iwetSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+ibalSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+
+gainSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+gainSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+
+doSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+ioSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+roSlider.setColour(juce::Slider::ColourIds::textBoxTextColourId, audioProcessor.fxfontColors[theme]);
+
+doSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+ioSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+roSlider.setColour(juce::Slider::ColourIds::trackColourId, audioProcessor.trackColors[theme]);
+
+fxComboBox.setColour(juce::ComboBox::ColourIds::backgroundColourId, audioProcessor.trackColors[theme]);
+fxComboBox.setColour(juce::ComboBox::ColourIds::textColourId, audioProcessor.fxfontColors[theme]);
+fxComboBox.setColour(juce::ComboBox::ColourIds::buttonColourId, audioProcessor.trackColors[theme]);
+fxComboBox.setColour(juce::ComboBox::ColourIds::arrowColourId, audioProcessor.fxfontColors[theme]);
+
+fxChain.setColour(juce::ComboBox::ColourIds::backgroundColourId, audioProcessor.trackColors[theme]);
+fxChain.setColour(juce::ComboBox::ColourIds::textColourId, audioProcessor.fxfontColors[theme]);
+fxChain.setColour(juce::ComboBox::ColourIds::buttonColourId, audioProcessor.trackColors[theme]);
+fxChain.setColour(juce::ComboBox::ColourIds::arrowColourId, audioProcessor.fxfontColors[theme]);
+
+voicesComboBox.setColour(juce::ComboBox::ColourIds::backgroundColourId, audioProcessor.trackColors[theme]);
+voicesComboBox.setColour(juce::ComboBox::ColourIds::textColourId, audioProcessor.fxfontColors[theme]);
+voicesComboBox.setColour(juce::ComboBox::ColourIds::buttonColourId, audioProcessor.trackColors[theme]);
+voicesComboBox.setColour(juce::ComboBox::ColourIds::arrowColourId, audioProcessor.fxfontColors[theme]);
+
+roptBox.setColour(juce::ComboBox::ColourIds::backgroundColourId, audioProcessor.trackColors[theme]);
+roptBox.setColour(juce::ComboBox::ColourIds::textColourId, audioProcessor.fxfontColors[theme]);
+roptBox.setColour(juce::ComboBox::ColourIds::buttonColourId, audioProcessor.trackColors[theme]);
+roptBox.setColour(juce::ComboBox::ColourIds::arrowColourId, audioProcessor.fxfontColors[theme]);
+
+den1Box.setColour(juce::ComboBox::ColourIds::backgroundColourId, audioProcessor.trackColors[theme]);
+den1Box.setColour(juce::ComboBox::ColourIds::buttonColourId, audioProcessor.trackColors[theme]);
+den1Box.setColour(juce::ComboBox::ColourIds::textColourId, audioProcessor.fxfontColors[theme]);
+den1Box.setColour(juce::ComboBox::ColourIds::arrowColourId, audioProcessor.fxfontColors[theme]);
+
+
+den2Box.setColour(juce::ComboBox::ColourIds::backgroundColourId, audioProcessor.trackColors[theme]);
+den2Box.setColour(juce::ComboBox::ColourIds::textColourId, audioProcessor.fxfontColors[theme]);
+den2Box.setColour(juce::ComboBox::ColourIds::buttonColourId, audioProcessor.trackColors[theme]);
+den2Box.setColour(juce::ComboBox::ColourIds::arrowColourId, audioProcessor.fxfontColors[theme]);
+
+makepBtn.setColour(juce::TextButton::ColourIds::buttonColourId, audioProcessor.trackColors[theme]);
+makepBtn.setColour(juce::TextButton::ColourIds::textColourOffId, audioProcessor.fxfontColors[theme]);
+makepBtn.setColour(juce::TextButton::ColourIds::textColourOnId, audioProcessor.fxfontColors[theme]);
+makepBtn.setColour(juce::TextButton::ColourIds::textColourOffId, audioProcessor.fxfontColors[theme]);
