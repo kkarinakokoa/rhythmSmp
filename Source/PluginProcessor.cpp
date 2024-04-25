@@ -167,7 +167,7 @@ void RhythmSmpAudioProcessor::prepareToPlay(double sampleRate, int samplesPerBlo
     changeFXOnAndOff();
 
     //testLength = (int)(sampleRate * (60.0f / 120) * (4.0f / 16.0f)); // 16분음표
-    isCreatemode = false;
+    //isCreatemode = false;
 }
 
 void RhythmSmpAudioProcessor::releaseResources()
@@ -588,7 +588,7 @@ void RhythmSmpAudioProcessor::loadFile(const juce::String& path, int samplerOrde
 void RhythmSmpAudioProcessor::changeRvb()
 {
     rvbParams1.wetLevel = (float)(APVTS.getRawParameterValue("WET1")->load())/100;
-    rvbParams1.dryLevel = 1;// -rvbParams1.wetLevel;
+    rvbParams1.dryLevel = 1 - rvbParams1.wetLevel;
     rvbParams1.roomSize = APVTS.getRawParameterValue("ROOMSIZE1")->load();
     rvbParams1.damping = APVTS.getRawParameterValue("DAMPING1")->load();
     rvbParams1.width = APVTS.getRawParameterValue("WIDTH1")->load();
@@ -596,7 +596,7 @@ void RhythmSmpAudioProcessor::changeRvb()
     rvb1.setParameters(rvbParams1);
 
     rvbParams2.wetLevel = (float)(APVTS.getRawParameterValue("WET2")->load()) / 100;
-    rvbParams2.dryLevel = 1;// -rvbParams2.wetLevel;
+    rvbParams2.dryLevel = 1 - rvbParams2.wetLevel;
     rvbParams2.roomSize = APVTS.getRawParameterValue("ROOMSIZE2")->load();
     rvbParams2.damping = APVTS.getRawParameterValue("DAMPING2")->load();
     rvbParams2.width = APVTS.getRawParameterValue("WIDTH2")->load();
@@ -604,7 +604,7 @@ void RhythmSmpAudioProcessor::changeRvb()
     rvb2.setParameters(rvbParams2);
 
     rvbParams3.wetLevel = (float)(APVTS.getRawParameterValue("WET3")->load()) / 100;
-    rvbParams3.dryLevel = 1;// -rvbParams3.wetLevel;
+    rvbParams3.dryLevel = 1 - rvbParams3.wetLevel;
     rvbParams3.roomSize = APVTS.getRawParameterValue("ROOMSIZE3")->load();
     rvbParams3.damping = APVTS.getRawParameterValue("DAMPING3")->load();
     rvbParams3.width = APVTS.getRawParameterValue("WIDTH3")->load();
